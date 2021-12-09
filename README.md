@@ -26,7 +26,7 @@ git commit -a -m "mensaje" // añade a la zona de stage todo lo que está pendie
 
 git commit --amend // edita el último mensaje de commit (esto cambia el código del commit).
 
-git remote add origin https://<nombreusuario>:<token>@github.com/<usuario-git>/<nombre-repo> // crea la conexion con autentificacion de token y usuario al repo remoto.
+git remote add origin https://nombreusuario:token@github.com/usuario-git/nombre-repo/ // crea la conexion con autentificacion de token y usuario al repo remoto.
 
 git remote remove origin // borra la configuracion remota de git. No afecta al repo remoto
 

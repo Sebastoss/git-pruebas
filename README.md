@@ -37,6 +37,12 @@ git push origin master // pushea el repositorio de la rama master (si es que ind
 
 git remote -v // muestra un listado con la conexion al repo remoto, tanto (fetch) como (push).
 
+git fetch origin // descarga los cambios que encuentre en remoto aunque no los aplica
+
+git pull // en caso de que haya cambios en remoto, haciendo pull se descargan al repo local
+
+
+
 
 ## Usage
 

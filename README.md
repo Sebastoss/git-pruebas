@@ -43,6 +43,7 @@ git pull // en caso de que haya cambios en remoto, haciendo pull se descargan al
 
 git branch nombre-rama // crea una nueva rama para trabajar, se estila  dev, testing, feature, etc.
 
+git merge nombre-rama // fusiona la rama donde estas parado con la rama que especificas.
 
 
 

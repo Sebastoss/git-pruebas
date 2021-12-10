@@ -41,6 +41,8 @@ git fetch origin // descarga los cambios que encuentre en remoto aunque no los a
 
 git pull // en caso de que haya cambios en remoto, haciendo pull se descargan al repo local
 
+git branch nombre-rama // crea una nueva rama para trabajar, se estila  dev, testing, feature, etc.
+
 
 
 

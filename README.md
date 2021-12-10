@@ -4,7 +4,10 @@ Creé este repositorio para hacer pruebas y de guía rápida para comandos git.
 ## Installation
 
 - Comandos útiles
+
 pwd // te indica en que ruta estás actualmente
+
+mkdir nombre-del-directorio // crea una carpeta
 
 git config --list // indica cómo está configurado git (user, mail, etc)
 

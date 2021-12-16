@@ -1,1 +1,3 @@
 agrego info a info.txt desde master
+
+modificando info.txt para stash

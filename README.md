@@ -46,6 +46,8 @@ git branch nombre-rama // crea una nueva rama para trabajar, se estila  dev, tes
 git merge nombre-rama // fusiona la rama donde estas parado con la rama que especificas.
 
 
+git revert hashcommit // revierte los cambios hechos en ese commit, sin embargo no borra el commit original, y agrega un commit al final con los cambios deshechos.
+
 
 ## Usage
 

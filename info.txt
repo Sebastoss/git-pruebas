@@ -1,3 +1,8 @@
 agrego info a info.txt desde master
 
 modificando info.txt para stash
+
+
+agrego info que quedara en el reset --soft
+
+esto se borra chauuu

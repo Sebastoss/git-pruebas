@@ -48,6 +48,8 @@ git merge nombre-rama // fusiona la rama donde estas parado con la rama que espe
 
 git revert hashcommit // revierte los cambios hechos en ese commit, sin embargo no borra el commit original, y agrega un commit al final con los cambios deshechos.
 
+git blame -L 10,20 archivo.txt // blame busca entre las lineas de codigo especificadas ej, 10 a 20 del archivo en cuestion. Sirve para traer la informacion del commit, nombre del autor, fecha y hora. Es un comando útil para buscar el origen de los bugs ya identificados en un archivo.
+
 
 ## Usage
 

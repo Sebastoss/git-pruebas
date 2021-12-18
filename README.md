@@ -19,6 +19,10 @@ git status // muestra si hay archivos sin trackear, modificados, en que branch (
 
 git log --oneline // muestra los commits del repositorio
 
+git log -S linea-de-codigo // te muestra los commits donde fue insertada la linea de codigo especificada.
+
+git log --graph --decorate --all --oneline // te muestra los commits de forma mas detallada con ramas incluidas.
+
 git add nombre-archivo.txt // añade el archivo que no está trackeado o ha sido modificado a la zona de stage.
 
 git add -i // abre un panel con 8 opciones interactivas, status, update, revert, add untracked, patch, diff, quit y help.
@@ -49,6 +53,13 @@ git merge nombre-rama // fusiona la rama donde estas parado con la rama que espe
 git revert hashcommit // revierte los cambios hechos en ese commit, sin embargo no borra el commit original, y agrega un commit al final con los cambios deshechos.
 
 git blame -L 10,20 archivo.txt // blame busca entre las lineas de codigo especificadas ej, 10 a 20 del archivo en cuestion. Sirve para traer la informacion del commit, nombre del autor, fecha y hora. Es un comando útil para buscar el origen de los bugs ya identificados en un archivo.
+
+
+git grep linea-de-codigo // grep busca en todos los archivos si hay una linea de codigo igual a lo que especificaste. Te mostrará el archivo que lo contiene y el fragmento de codigo.
+
+git grep -n linea-de-codigo // te mostrará el nombre del archivo que la contiene y también en qué número de línea está, ejemplo: index.html:17 codigo.
+
+git grep -c linea-de-codigo // te enseñará cuántas veces aparece la línea buscada en el archivo. Es un contador
 
 
 ## Usage
